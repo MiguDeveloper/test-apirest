@@ -1,4 +1,4 @@
-const { response, json } = require('express');
+const { response } = require('express');
 
 const getUsers = (req, res = response) => {
   res.status(200).json({
